@@ -1,0 +1,88 @@
+--R NOTLARI--
+
+//CTRL+L ile consolu temizleyebiliriz
+// 5+5 =10 R'de basit bir işlemdir
+#Değer ataması nasıl yapılır
+x<-10
+y<-25 Değerler bu şekilde atanır
+
+//İçerik Nasıl Gösterilir
+help("mean") ---> Yazarak bir fonksiyon nasıl kullanılır görürüz
+
+//Karekök Alma
+sqrt(4) -->2 çıktısı alırız
+print(sqrt(116)) ---> Buda farklı bir yöntemdir
+
+//Matrix Oluşturma
+print(matrix(c(10,20,30,40),2,2))
+
+//Print ile yazı yazdırma
+print("R diline hoşgeldin")
+
+//Uygulama
+x <- 4
+y <- 8
+z <- sqrt(x^2+y^2)
+ print(z)
+[1] 8.94427
+
+//Çeşitli fonksiyonlar
+
+ls() -- sıralama yapar
+rm() -- silmek istediğimiz karakteri içine yazar sileriz
+mode(f) -- mesela bunla verimizin hangi değerde olduğunu saklarız numeric vs
+
+
+//Vektör Oluşturmayı Görelim
+
+v1 <- c(2,3,4)
+v2 <- c("a","b","c")
+c(v1,v2)
+Çıktı="2" "3" "6" "a" "e" "c"
+
+
+//Temel İstatistik İşlemleri
+
+a)İlk bir değer oluşturalım 
+z <- c(125,43,666,912,28,34)
+
+**Ortalama alma
+mean(z) = 284.666
+
+**Standart Sapma
+sd(z)
+
+**Varyans Alma
+var(z)
+
+**Medyan Alma
+median(z)
+
+
+
+//Dizi oluşturma
+1:5 --Birden beşe kadar sıralama yani dizi koyar
+
+1:10 -- Birden ona kadar sıralama yapar
+
+seq(from=1, to=20, by=2=) --> 1'den 20'a kadar sıralama yapar 2'şer arttırır 
+
+
+//Eşitlik ve Değer Kontrolleri
+q <- 4 :Değer atamalarımızı yaptık
+q == 4
+True verir q'nin 4'e eşit olup olmadığını sorgular
+
+q == 5
+False verir çünkü 5'e eşit değil
+
+q != 5
+True verir q 5 e eşit değildir
+
+//Benzer Değer Bulma
+a <- c(2,5,8)
+b <- c(3,5,7)
+a == b
+False True False : Evet çünkü 5 ikisinde de ortaktır.
+
+
