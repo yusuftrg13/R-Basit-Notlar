@@ -1,0 +1,1 @@
+# R-Basit-Notlar
